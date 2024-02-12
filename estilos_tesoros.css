@@ -24,7 +24,7 @@ a:hover {
 }
 
 a {
-    color: #305C8B  /*POSIBLES COLORES  B0C2CE 305C8B saddlebrown*/;
+    color: #305C8B;
 }
 
 a:link {
@@ -52,7 +52,19 @@ div {
     font-family: mifront;
 }
 
-h1{
-    color:white;
-    font-size: 45px;
+h1 {
+    color: #ffc628;
+    font-size: 35px;
 }
+
+.btn {
+    border: none;
+    color: white;
+    padding: 14px 28px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: mifront;
+}
+
+.atras {background-color: #ff9800;} 
+.atras:hover {background: #e68a00;}

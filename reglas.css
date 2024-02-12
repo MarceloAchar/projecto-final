@@ -1,0 +1,125 @@
+@font-face {
+    font-family: "GoD2";
+    src: url("/GODOFWAR.TTF");
+}
+
+body {
+    text-align: center;
+    font-family: GoD2;
+    background-image: url(./imagen/kratos-god-of-war2.gif);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-size: 3em;
+    color: #ffc628;
+    text-shadow: 5px 5px 3px black;
+}
+
+form {
+    width: 50%;
+    margin: 0 auto;
+    color: #448ad1;
+    text-shadow: 3px 3px 4px black;
+}
+
+form p{
+    position: relative;
+    font-size: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+form p:hover{
+    font-size: 2em;
+    display: flex;
+    justify-content: space-between;
+    color: #00f6fe;
+}
+
+a {
+    color: #448ad1;
+    text-decoration: none;
+    text-align: left;
+    text-shadow: 3px 3px 4px black;
+}
+
+a:hover{
+    color: #00f6fe;
+    text-decoration: none;
+}
+
+body > p img {
+    width: 3%;
+}
+
+body > p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5em;
+    color: ivory;
+    text-shadow: 3px 3px 4px black;
+}
+
+select {
+    text-shadow: 3px 3px 2px black;
+    background-color:transparent;
+    border: none;
+    color: #448ad1;
+    font-family: GoD2;
+    font-size: 1em;
+}
+
+select:hover {
+    text-shadow: 0px 0px 2px black;
+    background-color:transparent;
+    border: none;
+    color: #00f6fe;
+    font-family: GoD2;
+    font-size: 1em;
+}
+
+.arrows {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20px;
+    height: 100%;
+    background-color: black;
+
+    pointer-events: none;
+}
+
+
+.arrows::before,
+.arrows::after {
+    --size: 0.2em;
+
+    content:'';
+    position: absolute;
+    width: 0;
+    height: 0;
+
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.arrows::before {
+    border-left: var(--size) solid transparent;
+    border-right: var(--size) solid transparent;
+    border-bottom: var(--size) solid white;
+
+    top: 30%;
+}
+
+.arrows::after {
+    border-left: var(--size) solid transparent;
+    border-right: var(--size) solid transparent;
+    border-top: var(--size) solid white;
+
+    top: 70%;
+}
