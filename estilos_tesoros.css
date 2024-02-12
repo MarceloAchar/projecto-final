@@ -68,3 +68,7 @@ h1 {
 
 .atras {background-color: #ff9800;} 
 .atras:hover {background: #e68a00;}
+
+#miAudio {
+    display: none;
+}

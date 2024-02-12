@@ -123,3 +123,7 @@ select:hover {
 
     top: 70%;
 }
+
+#miAudio {
+    display: none;
+}
