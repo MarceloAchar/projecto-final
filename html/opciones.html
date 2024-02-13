@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="/imagen/icono.png">
     <link rel="stylesheet" href="/reglas.css">
-    <title>GoK2</title>
+    <title>Opciones</title>
 </head>
+
 <body>
     <h1>OPCIONES</h1>
     <form action="#">
         <p>
             <label>PANTALLA COMPLEA</label>
-                <select name="full-screm" id="full-screen">
-                    <option value="yes">Yes</option>
-                    <option value="no" selected>No</option>
-                </select>
+            <select name="full-screm" id="full-screen">
+                <option value="yes">Yes</option>
+                <option value="no" selected>No</option>
+            </select>
             <span class="arrows">
-            
-
         </p>
         <p>
             <label>PISTAS/TUTORIALES</label>
@@ -29,7 +29,7 @@
             </select>
             <span class="arrows">
 
-           
+
         </p>
         <p>
             <label>VOLUMEN MÚSICA:</label>
@@ -45,7 +45,7 @@
         <p>
             <label>CONTROLES DE VUELO:</label>
             <select name="vuelo" id="vuelo">
-                <option value="inver"selected>Invertido</option>
+                <option value="inver" selected>Invertido</option>
                 <option value="normal">Normal</option>
             </select>
             <span class="arrows">
@@ -58,12 +58,18 @@
     <p>
         <img src="/imagen/triangulo.png" alt="Triangulo">&nbsp; = Atrás
     </p>
-   
+
+    <video autoplay loop>
+        <source src="/video/opciones.mp4" type="video/mp4">
+    </video>
+    <div class="capa"> </div>
+
     <audio id="miAudio" controls>
         <source src="/sound/Opction.mp3" type="audio/mpeg">
     </audio>
-    
+
     <script src="/index.js"></script>
 
 </body>
+
 </html>

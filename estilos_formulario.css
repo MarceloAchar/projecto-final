@@ -1,0 +1,74 @@
+p {
+    color: #00f6fe;
+    font-size: 30px;
+    list-style-type: none;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    font-family: mifront;
+}
+
+div.parent {
+    margin-top: 18%;
+    text-align: center;
+}
+
+li {
+    color: gray;
+    font-size: 25px;
+    list-style-type: none;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: mifront;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+}
+
+a:hover {
+    color: #00f6fe;
+    font-size: 35px;
+}
+
+a {
+    color: #00f6fe;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+
+@font-face {
+    font-family: mifront;
+    src: url(GODOFWAR.TTF);
+}
+
+#miAudio {
+    display: none;
+}
+
+#hero {
+    min-height: 100vh;
+    position: relative;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.capa {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #1c1c1d;
+    opacity: 0.5;
+    mix-blend-mode: overlay;
+}

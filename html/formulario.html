@@ -1,22 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario de registro</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario de registro</title>
+  <link rel="stylesheet" href="/estilos_formulario.css">
 </head>
+
 <body>
-    <form action="formulario" method="get">
-        <p>Nombre: <input type="text" name="nombre" size="40"></p>
-        <p>Año de nacimiento: <input type="number" name="nacido" min="1900"></p>
-        <p>Sexo:
-          <input type="radio" name="sexo" value="hombre"> Hombre
-          <input type="radio" name="sexo" value="mujer"> Mujer
-        </p>
-        <p>
-          <input type="submit" value="Enviar">
-          <input type="reset" value="Borrar">
-        </p>
-      </form>
+  <div class="parent">
+    <form onsubmit="enviar" method="get">
+      <p>Nombre: <input type="text" name="nombre" size="40"></p>
+      <p>Año de nacimiento: <input type="number" name="nacido" min="1900"></p>
+      <p>Sexo:
+        <input type="radio" name="sexo" value="hombre"> Hombre
+        <input type="radio" name="sexo" value="mujer"> Mujer
+      </p>
+    </form>
+
+    <li><a href="/index.html">Volver al menu principal</a></li>
+  </div>
+  <video autoplay loop>
+    <source src="/video/formulario.mp4" type="video/mp4">
+  </video>
+  <div class="capa"> </div>
+
+  <audio id="miAudio" controls>
+    <source src="/sound/formulary.mp3" type="audio/mpeg">
+  </audio>
+
 </body>
+
 </html>
