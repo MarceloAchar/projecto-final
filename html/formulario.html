@@ -4,32 +4,46 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Formulario de registro</title>
+  <title>Formulario de Registro de Usuario</title>
   <link rel="stylesheet" href="/estilos_formulario.css">
 </head>
 
 <body>
   <div class="parent">
-    <form onsubmit="enviar" method="get">
-      <p>Nombre: <input type="text" name="nombre" size="40"></p>
-      <p>Año de nacimiento: <input type="number" name="nacido" min="1900"></p>
-      <p>Sexo:
-        <input type="radio" name="sexo" value="hombre"> Hombre
-        <input type="radio" name="sexo" value="mujer"> Mujer
-      </p>
-    </form>
+    <h1>Formulario de Registro de Usuario</h1>
 
+    <div>
+      <label for="txtNombres">Nombres:</label><br>
+      <input type="text" class="input-item" id="txtNombres"><br>
+    </div>
+
+    <div>
+      <label for="txtApellidos">Apellidos:</label><br>
+      <input type="text" class="input-item" id="txtApellidos"><br>
+    </div>
+
+    <div class="sexo-item">
+      <label>Sexo:</label><br>
+      <input type="radio" id="radSexM" class="input-item" name="sexo" value="M">
+      <label for="radSexM">M</label><br>
+      <input type="radio" id="radSexF" class="input-item" name="sexo" value="F">
+      <label for="radSexM">F</label><br>
+    </div>
+
+    <div>
+      <button type="button" id="btnCrear">Crear</button>
+      <button type="button" id="btnSalir">Salir</button>
+    </div>
+    
     <li><a href="/index.html">Volver al menu principal</a></li>
   </div>
+
+  <script src="/formulario.js"></script>`
+
   <video autoplay loop>
     <source src="/video/formulario.mp4" type="video/mp4">
   </video>
   <div class="capa"> </div>
-
-  <audio id="miAudio" controls>
-    <source src="/sound/formulary.mp3" type="audio/mpeg">
-  </audio>
-
 </body>
 
 </html>

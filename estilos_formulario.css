@@ -1,6 +1,6 @@
-p {
+label {
     color: #00f6fe;
-    font-size: 30px;
+    font-size: 40px;
     list-style-type: none;
     text-align: center;
     position: relative;
@@ -8,14 +8,24 @@ p {
     font-family: mifront;
 }
 
+input{
+    position: relative;
+    z-index: 2;   
+}
+
+button{
+    position: relative;
+    z-index: 2;   
+}
+
 div.parent {
-    margin-top: 18%;
+    margin-top: 15%;
     text-align: center;
 }
 
 li {
     color: gray;
-    font-size: 25px;
+    font-size: 40px;
     list-style-type: none;
     text-align: center;
     margin-bottom: 20px;
@@ -27,7 +37,7 @@ li {
 
 a:hover {
     color: #00f6fe;
-    font-size: 35px;
+    font-size: 50px;
 }
 
 a {
@@ -71,4 +81,13 @@ video {
     background: #1c1c1d;
     opacity: 0.5;
     mix-blend-mode: overlay;
+}
+
+h1 {
+    color: #ffc628;
+    font-size: 3em;
+    text-shadow: 5px 5px 3px black;
+    position: relative;
+    font-family: mifront;
+    z-index: 2;
 }
