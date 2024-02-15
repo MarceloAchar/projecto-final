@@ -89,3 +89,16 @@ video {
     opacity: 0.5;
     mix-blend-mode: overlay;
 }
+
+.hidden {
+    text-align: center;
+    display: none;
+}
+
+a:hover+.hidden {
+    display: block;
+}
+
+.hidden img {
+    width: 90%;
+}

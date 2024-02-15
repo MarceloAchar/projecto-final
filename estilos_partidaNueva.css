@@ -5,7 +5,7 @@ ul {
 }
 
 div.parent {
-    margin-top: 30%;
+    margin-top: 8%;
     text-align: center;
 }
 
@@ -57,6 +57,14 @@ h1 {
     font-size: 3em;
     color: #ffc628;
     text-shadow: 5px 5px 3px black;
+    position: relative;
+    z-index: 2;
+}
+
+h2 {
+    font-size: 2em;
+    color: #ffc628;
+    font-family: mifront;
     position: relative;
     z-index: 2;
 }
