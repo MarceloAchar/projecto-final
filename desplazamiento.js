@@ -1,5 +1,32 @@
 let posicion = 1;
 
+function agregarEventos() {
+    const btnarriba = document.getElementById("btnarriba");
+    const btnizquierda = document.getElementById("btnizquierda");
+    const btnderecha = document.getElementById("btnderecha");
+    const btnabajo = document.getElementById("btnabajo");
+
+    document.addEventListener("keydown", function(e) {
+        console.log(e);
+        if(e.key === "ArrowUp") {
+            btnarriba.click();
+        }
+        if(e.key === "ArrowRight") {
+            btnderecha.click();
+        }
+        if(e.key === "ArrowDown") {
+            btnabajo.click();
+        }
+        if(e.key === "ArrowLeft") {
+            btnizquierda.click();
+        }
+    });
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+    agregarEventos();
+});
+
 function derecha() {
     document.getElementById("a" + posicion).src = "/imagen/blanco.jpg"
     posicion += 1;

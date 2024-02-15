@@ -70,7 +70,7 @@ function capturarDatosDelFormulario() {
     console.log(crearJsonUsuario);
     localStorage.setItem("usuario", crearJsonUsuario);
 
-    window.location.href = "/html/desplazamiento.html";
+    window.location.href = "/html/partida_nueva.html";
 
 
 }
