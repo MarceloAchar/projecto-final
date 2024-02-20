@@ -37,3 +37,7 @@ function updateGameArea() {
 window.onload = function () {
     updateGameArea();
 };
+
+function dificultad(){
+    location.replace("/html/partida_nueva.html")
+}

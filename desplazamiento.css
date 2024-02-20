@@ -1,0 +1,29 @@
+li {
+    margin-top: 10px;
+    color: gray;
+    font-size: 25px;
+    list-style-type: none;
+    text-align: center;
+    cursor: pointer;
+    font-family: mifront;
+    position: relative;
+    z-index: 2;
+}
+
+a:hover {
+    color: #00f6fe;
+    font-size: 35px;   
+}
+
+a {
+    color: #305C8B;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: mifront;
+    src: url(GODOFWAR.TTF);
+}

@@ -1,7 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
 
     const btnCrear = document.getElementById("btnCrear");
-    const btnSalir = document.getElementById("btnSalir");
 
     btnCrear.addEventListener("click", function () {
         capturarDatosDelFormulario();
@@ -9,6 +8,9 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
+function partida_nueva (){
+    location.replace("/html/partida_nueva.html")
+}
 
 function capturarDatosDelFormulario() {
 
@@ -67,10 +69,8 @@ function capturarDatosDelFormulario() {
     //Proceso de guardado
 
     const crearJsonUsuario = JSON.stringify(usuario);
-    console.log(crearJsonUsuario);
     localStorage.setItem("usuario", crearJsonUsuario);
-
-    window.location.href = "/html/partida_nueva.html";
-
-
+    console.log(crearJsonUsuario);
+    alert("El registro de usuario se completo correctamente")
+    partida_nueva ();
 }

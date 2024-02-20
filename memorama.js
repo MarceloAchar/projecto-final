@@ -74,3 +74,7 @@ function desSelectors(selectors) {
     }
   }, 1000);
 }
+
+function dificultad(){
+  location.replace("/html/partida_nueva.html")
+}

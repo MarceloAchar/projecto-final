@@ -68,3 +68,7 @@ function arriba() {
 
     document.getElementById("a" + posicion).src = "/imagen/dibujo.jpg"
 }
+
+function dificultad(){
+    location.replace("/html/partida_nueva.html")
+}

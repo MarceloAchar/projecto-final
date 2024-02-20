@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", function(){
     reproducirAudio();
+    history.forward();
 });
 
 function reproducirAudio(){
@@ -9,3 +10,16 @@ function reproducirAudio(){
     audio.load();
     audio.play();
 }
+
+function formulario() {
+    location.replace("/html/formulario.html")
+}
+
+function opciones() {
+    location.replace("/html/opciones.html")
+}
+
+function tesoros() {
+    location.replace("/html/tesoros.html")
+}
+
