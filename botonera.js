@@ -56,3 +56,7 @@ document.addEventListener("DOMContentLoaded", function() {
     //hacerCirculo();
     agregarEventos();
 });
+
+function dificultad(){
+    location.replace("/html/partida_nueva.html")
+}
