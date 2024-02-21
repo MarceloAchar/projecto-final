@@ -1,12 +1,19 @@
 document.addEventListener("DOMContentLoaded", function () {
-
+    reproducirAudio();
     const btnCrear = document.getElementById("btnCrear");
-
     btnCrear.addEventListener("click", function () {
         capturarDatosDelFormulario();
-
     });
 });
+
+function reproducirAudio(){
+    const audio = document.getElementById("miAudio")
+    audio.loop = true;
+    audio.autoplay = true;
+    audio.load();
+    audio.play();
+}
+
 
 function partida_nueva (){
     location.replace("/html/partida_nueva.html")
