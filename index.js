@@ -23,3 +23,6 @@ function tesoros() {
     location.replace("/html/tesoros.html")
 }
 
+function menu() {
+    location.replace("/index.html")
+}

@@ -78,6 +78,6 @@ function capturarDatosDelFormulario() {
     const crearJsonUsuario = JSON.stringify(usuario);
     localStorage.setItem("usuario", crearJsonUsuario);
     console.log(crearJsonUsuario);
-    alert("El registro de usuario se completo correctamente")
-    partida_nueva ();
+    //alert("El registro de usuario se completo correctamente")
+    partida_nueva();
 }
