@@ -14,6 +14,9 @@ function reproducirAudio(){
     audio.play();
 }
 
+function menu() {
+    location.replace("/index.html")
+}
 
 function partida_nueva (){
     location.replace("/html/partida_nueva.html")
