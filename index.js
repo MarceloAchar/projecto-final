@@ -1,9 +1,9 @@
-document.addEventListener("DOMContentLoaded", function(){
+document.addEventListener("DOMContentLoaded", function () {
     reproducirAudio();
     history.forward();
 });
 
-function reproducirAudio(){
+function reproducirAudio() {
     const audio = document.getElementById("miAudio")
     audio.loop = true;
     audio.autoplay = true;
