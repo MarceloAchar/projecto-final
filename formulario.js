@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function reproducirAudio(){
-    const audio = document.getElementById("miAudio")
+    const audio = document.getElementById("miAudio");
     audio.loop = true;
     audio.autoplay = true;
     audio.load();
@@ -15,11 +15,11 @@ function reproducirAudio(){
 }
 
 function menu() {
-    location.replace("/index.html")
+    location.replace("/index.html");
 }
 
 function partida_nueva (){
-    location.replace("/html/partida_nueva.html")
+    location.replace("/html/partida_nueva.html");
 }
 
 function capturarDatosDelFormulario() {

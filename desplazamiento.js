@@ -70,5 +70,5 @@ function arriba() {
 }
 
 function dificultad(){
-    location.replace("/html/partida_nueva.html")
+    location.replace("/html/partida_nueva.html");
 }

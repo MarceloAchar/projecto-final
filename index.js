@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function reproducirAudio() {
-    const audio = document.getElementById("miAudio")
+    const audio = document.getElementById("miAudio");
     audio.loop = true;
     audio.autoplay = true;
     audio.load();
@@ -12,17 +12,17 @@ function reproducirAudio() {
 }
 
 function formulario() {
-    location.replace("/html/formulario.html")
+    location.replace("/html/formulario.html");
 }
 
 function opciones() {
-    location.replace("/html/opciones.html")
+    location.replace("/html/opciones.html");
 }
 
 function tesoros() {
-    location.replace("/html/tesoros.html")
+    location.replace("/html/tesoros.html");
 }
 
 function menu() {
-    location.replace("/index.html")
+    location.replace("/index.html");
 }
